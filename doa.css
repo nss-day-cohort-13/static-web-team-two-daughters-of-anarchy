@@ -1,0 +1,81 @@
+ /*doa.css 1st group project, 2nd iteration - Team Daughters of Anarchy*/
+
+/* GLOBAL FONT */
+@import url(https://fonts.googleapis.com/css?family=Metal+Mania);
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*NAVBAR*/
+
+
+#header {
+  border: 1px solid red;
+  position: fixed;
+  width: 100%;
+
+}
+#header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+
+
+
+.navHome {
+ font-size: 5em;
+ font-weight: bold;
+}
+
+#navLinks {
+font-weight: bold;
+font-size: 3em;
+}
+
+
+
+
+
+
+/*BODY*/
+
+#splashPicture {
+  padding-top: 100px;
+}
+
+
+.mainContent {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+#splashPicture img {
+  width: 100%;
+}
+
+
+body {
+  font-family: "Metal Mania", sans-serif;
+  margin-top:200px;
+  padding: 0;
+  margin: 0;
+  background-color: #523833;
+}
+
+
+
+
+/*FOOTER*/
+
+
+/*PRODUCT*/
+
+
+/*CONTACT*/
+
+
+
