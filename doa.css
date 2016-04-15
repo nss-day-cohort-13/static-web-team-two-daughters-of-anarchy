@@ -27,14 +27,14 @@
   padding-left: 15px;
 }
 
-#header a {
+a {
   text-decoration: none;
 
 }
 .navLinks {
   float: right;
   vertical-align: bottom;
-  padding: 5px 15px 0 0;
+  padding-right:15px;
 
 }
 
@@ -53,7 +53,7 @@ body {
   background-color: #523833;
 }
 .mainContent {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   padding-top: 150px;
 
@@ -86,7 +86,12 @@ footer {
   padding: 10px 0;
   overflow: hidden;
   clear: both;
-
+}
+footer p {
+  margin: 0;
+  float: left;
+  vertical-align: center;
+  padding-left: 15px;
 }
 
 /*PRODUCT*/
@@ -100,7 +105,7 @@ footer {
 .card img {
   display: block;
   width: 90%;
-  max-height: 95px;
+  height: 175px;
   margin: 5px auto 0;
   border-radius: 10%;
 }
