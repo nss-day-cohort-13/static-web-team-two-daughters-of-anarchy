@@ -29,8 +29,21 @@
 
 a {
   text-decoration: none;
-
+  color: yellow;
 }
+a:hover {
+  color: #55ff00;
+}
+h1 a:hover {
+  color: #55ff00;
+}
+.navLinks a:hover {
+  color: #55ff00;
+}
+a:visited {
+  color: yellow;
+}
+
 .navLinks {
   float: right;
   vertical-align: bottom;
@@ -38,12 +51,10 @@ a {
 
 }
 
-/*FOOTER*/
 
 
 
-
-/*BODY*/
+/*HOME PAGE*/
 
 body {
   font-family: "Metal Mania", sans-serif;
@@ -72,13 +83,12 @@ body {
   margin-top: -5px;
 }
 
-
-
 .navHome {
  font-size: 5em;
  font-weight: bold;
 }
 
+/*FOOTER*/
 
 footer {
 /*  border: 1px solid red;
@@ -125,7 +135,37 @@ footer p {
   margin: 5px auto;
 }
 
-/*CONTACT*/
+/*CONTACT PAGE*/
+
+#columnLeft {
+  width: 30%;
+  float: left;
+}
 
 
+#columnLeft p {
+  font-size: 1.5em;
+  margin-top: 3px;
+}
+
+.contactInfo {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+
+#columnRight {
+  width: 70%;
+  float: left;
+}
+
+#columnRight img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*.contactInfo,
+.social, {
+  font-size: 2em;
+}*/
 
