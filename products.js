@@ -97,11 +97,16 @@ var loopCount = bikes.length;
 
 var bikeHTML = document.getElementById("productCards");
 
-for (var i = 0, i < loopCount, i++)	{
+for (var i = 0; i < loopCount; i++)	{
 	bikeHTML.innerHTML +=
-
+	"<article  class='card'>" +
+			"<img src='" + bikes[i].image + " alt='" + bikes[i].imageAlt + "'>" +
+			"<h3 class='productName'>" + bikes[i].name + '</h3>' +
+		"<p class='productDescription'>" + bikes[i].description + '</p>' +
+		"<h4 class='price'>" + bikes[i].price + "</h4>" +
+	"</article>"
 }
 
-
+console.log("product card for loop", bikeHTML.innerHTML);
 
 
