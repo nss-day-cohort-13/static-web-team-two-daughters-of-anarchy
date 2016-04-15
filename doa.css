@@ -12,8 +12,8 @@
 
 
 #header {
-  border: 1px solid red;
-  position: fixed;
+/*  border: 1px solid red;
+*/  position: fixed;
   width: 100%;
   background-color: pink;
 
@@ -34,7 +34,7 @@
 .navLinks {
   float: right;
   vertical-align: bottom;
-  padding: 5px 5px 0 0;
+  padding: 5px 15px 0 0;
 
 }
 
@@ -63,7 +63,9 @@ body {
 #splashPicture img {
   width: 100%;
 }
-
+#splashText {
+  text-align: justify;
+}
 .mainContent h2 {
   text-align: center;
   font-size: 2.5em;
@@ -79,22 +81,26 @@ body {
 
 
 footer {
-  border: 1px solid red;
-  background-color: pink;
-
+/*  border: 1px solid red;
+*/  background-color: pink;
+  padding: 10px 0;
+  overflow: hidden;
+  clear: both;
 
 }
 
 /*PRODUCT*/
 
 .card {
-  border: 1px solid red;
-  width: 20%;
-
+/*  border: 1px solid red;
+*/  width: 25%;
+  height: 400px;
+  float: left;
 }
 .card img {
   display: block;
   width: 90%;
+  max-height: 95px;
   margin: 5px auto 0;
   border-radius: 10%;
 }
