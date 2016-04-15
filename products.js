@@ -93,7 +93,14 @@ var bikes = [
 
 var loopCount = bikes.length;
 
-console.log("bike variable length", loopCount);
+// console.log("bike variable length", loopCount);
+
+var bikeHTML = document.getElementById("productCards");
+
+for (var i = 0, i < loopCount, i++)	{
+	bikeHTML.innerHTML +=
+
+}
 
 
 
